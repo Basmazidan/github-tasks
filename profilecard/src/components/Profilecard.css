@@ -1,0 +1,71 @@
+.Card-Div{
+    width: 25%;
+    height: 50%;
+    background-color: white;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+nav{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 35%;
+    background-image: url(../assets/images/bg-pattern-card.svg);
+}
+#Img-Card{
+    border-radius: 50%;
+    margin-top: -50px;
+    width: 80px;
+    height: 80px;
+    border: 5px white solid;
+
+
+}
+#myh2{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+#myfirstspan{
+
+    color:hsl(0, 0%, 59%) ;;
+    font-weight: normal;
+}
+hr{
+    width: 100%;
+    color:hsl(0, 0%, 59%) ;
+
+}
+footer{
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
+#mylabel{
+    color: hsl(0, 0%, 59%) ;
+}
+.counter-Div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.counter-Div span{
+    font-size: 14px;
+    font-weight:normal;
+    color: hsl(0, 0%, 59%) ;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 900px) {
+    .Card-Div{
+        width: 300px;
+    }
+  }
