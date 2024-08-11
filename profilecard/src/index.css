@@ -35,8 +35,18 @@ body{
 #root{
   width: 100%;
   height: 100%;
-  background-image: url(./assets/images/bg-pattern-top.svg);
-  background-image: url(./assets/images/bg-pattern-bottom.svg);
+  background-image: url(./assets/images/bg-pattern-top.svg),url(./assets/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position-x: -315px,150%;
+  background-position-y: -400px,-150%;
   background-color:  hsl(185, 75%, 39%);
 
+}
+@media only screen and (max-width: 900px) {
+  #root{
+    background-image: url(./assets/images/bg-pattern-top.svg),url(./assets/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position-x: -775px, -5%;
+    background-position-y: -520px, -99%;    
+  }
 }
